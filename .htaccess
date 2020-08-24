@@ -1,0 +1,5 @@
+RewriteEngine On
+
+
+RewriteRule ^blog$ blog/articles
+RewriteRule ^blog/([0-9]+)$ f_blog/voir_article?id=$1
