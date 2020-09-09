@@ -31,7 +31,7 @@ $req= $req->fetchAll();
           <?php
             if(isset($_SESSION['id']) && $_SESSION['role'] == 1){
           ?>
-              <a href="blog/creer-mon-article" class="btn btn-primary btn-lg active" role="button" aria-pressed="true">Créer un article</a>
+             
             <?php
               }
             ?>
